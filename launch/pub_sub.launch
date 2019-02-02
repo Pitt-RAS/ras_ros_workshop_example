@@ -1,0 +1,7 @@
+<launch>
+    <node name="pub_node" pkg="ras_ros_workshop_example" type="pub_node.py">
+    </node>
+
+    <node name="sub_node" pkg="ras_ros_workshop_example" type="sub_node.py">
+    </node>
+</launch>
